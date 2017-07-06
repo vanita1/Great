@@ -1,0 +1,6 @@
+export("fars_read","make_filename","fars_read_years","fars_summarize_years","fars_map_state")
+import(readr)
+import(dplyr)
+importFrom(magrittr,"%>%")
+importFrom(tidyr,"spread")
+import(maps)
